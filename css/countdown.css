@@ -1,0 +1,30 @@
+
+		 #clockdiv{ 
+		    font-family: 'Nunito', sans-serif;
+		    color: #fff; 
+		    display: inline-block; 
+		    font-weight: 600; 
+		    text-align: center; 
+		    font-size: 2vw; 
+		    position: absolute;
+		    z-index: 999;
+		    right: 10%;
+		} 
+		#clockdiv > div{ 
+		    padding: 10px; 
+		    border-radius: 3px; 
+		    background: #e7e7e7; 
+		    display: inline-block;
+		    width: 30%;
+		    height: auto;
+		} 
+		#clockdiv div > span{ 
+		    padding: 10px; 
+		    border-radius: 3px; 
+		    background: #c6c6c7; 
+		    display: inline-block; 
+		} 
+		.smalltext{ 
+		    padding-top: 5px; 
+		    font-size: 2vw; 
+		} 

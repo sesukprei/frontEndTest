@@ -1,0 +1,358 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/countdown.css">
+		<title>Frontend test for bahaso</title>
+		<style type="text/css">
+
+			body {
+				font-size: 14px;
+				line-height: 1;
+				background-color: transparent;
+				margin: 0;
+				padding: 0;
+				-webkit-font-smoothing: antialiased;
+				font-family: 'Nunito', sans-serif;
+			}
+			
+			@media all and (max-width: 800px) {
+				body[yahoo] .fitScreen {
+					width: 100% !important;
+				}
+			}
+			
+			@media all and (max-width: 639px) {
+				body[yahoo] .leftRightImg {
+					width: 240px !important;
+				}
+				
+				body[yahoo] .leftRightText {
+					width: 270px !important;
+				}
+				
+			}
+			
+			@media all and (max-width: 599px) {
+				body[yahoo] .leftRightImg {
+					width: 100% !important;
+				}
+				
+				body[yahoo] .leftRightText {
+					width: 100% !important;
+				}
+				
+			}
+			
+			@media all and (max-width: 500px){
+				body[yahoo] .font16{
+					font-size: 16px !important;
+				}
+				body[yahoo] .font45{
+					font-size: 45px !important;
+				}
+			}
+			@media all and (max-width: 479px) {
+				body[yahoo] .width10 {
+					width: 10px !important;
+				}
+				body[yahoo] .width100per {
+					width: 100% !important;
+				}
+				body[yahoo] .fullContentWidth {
+					display: block !important;
+					margin: 0 auto !important;
+				}
+				body[yahoo] .fullWidth {
+					width: 100% !important;
+					display: block;
+				}
+				body[yahoo] .height60 {
+					height: 60px !important;
+				}
+				body[yahoo] .margin10 {
+					margin-top: 10px !important;
+				}
+				body[yahoo] .height25 {
+					height: 25px !important;
+				}
+				body[yahoo] .hide {
+					display: none !important;
+				}
+				body[yahoo] .width80 {
+					width: 40px !important;
+				}
+				body[yahoo] .centerC{
+					margin: 0 auto !important;
+					width: 100% !important;
+				}
+				
+			}
+			
+		</style>
+	</head>
+	<body yahoo="fix" id="bodyTable">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12" style="box-shadow: 10px 0px 16px 15px rgba(0,0,0,0.16);border-radius: 15px;padding-left: 0px;padding-right: 0px;">
+
+					<div align="right" id="clockdiv"> 
+					  <div> 
+					    <span class="hours" id="hour"></span> 
+					    <div class="smalltext">Jam</div> 
+					  </div> 
+					  <div>
+					    <span class="minutes" id="minute"></span> 
+					    <div class="smalltext">Menit</div> 
+					  </div>
+					  <div>
+					    <span class="seconds" id="second"></span> 
+					    <div class="smalltext">Detik</div> 
+					  </div>
+					</div> 
+
+					<img src="images/logo.png" class="responsive" style="position: absolute;z-index: 999;width: 15%;">
+					<img src="images/blue_graphic.png" class="responsive" style="position: absolute;width: 85%;height: 100%;">
+					<p style="">Percaya diri berbicara<br> bahasa inggris bisa<br> dimulai dari sekarang!<br><br>
+						<button class="btn btn-danger" style="position: absolute;border-radius: 25px;font-size: 1vw;">PELAJARI SELENGKAPNYA</button></p>
+					<img src="images/video_thumbnail.png" class="responsive" style="float: right;">
+					<img src="images/play.png" style="position: absolute;z-index: 999;right: 20%;top: 50%;width: 5%;height: auto;">
+				</div>
+			</div>
+		</div>
+
+		<section class="product">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="profile" style="height: 640px;">
+								<img src="images/basic.png" style="left: calc(85% - 50%);position: absolute;top: -55px;">
+								<p class="priceDiscBasic">RP. 700.000</p>
+								<p class="price">RP. 750.000</p>
+								<ul style="line-height: 20px;padding-bottom: 75px;">
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">Durasi total 500 menit</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">Masa berlaku 50 hari terhitung sejak pembiayaan</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">Panggilan dapat dilakukan maksimal 50 menit per hari</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">Akses belajar senin- jum'at, pukul 10.00 - 19.00 WIB</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">Sudah termasuk akses belajar Premium membership selama 1 bulan</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">FREE Startet kit (Sim Card Indosat, buku panduan, block notes, pulpen & sticker Bahaso)</span>
+									</li>
+								</ul>
+								<button class="btn btn-info buyNow">BELI SEKARANG</button>
+								<p class="buyTokped">BELI DI TOKOPEDIA</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="profile" style="height: 640px;">
+								<img src="images/intense.png" style="left: calc(85% - 50%);position: absolute;top: -90px;">
+								<p class="priceDiscIntense">RP. 2.300.000</p>
+								<p class="price">RP. 2.350.000</p>
+								<ul style="line-height: 20px;padding-bottom: 20px;">
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">Durasi total 500 menit (+bonus 500 menit) Total = 2000 menit</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">Masa berlaku 90 hari terhitung sejak pembiayaan</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">Panggilan dapat dilakukan maksimal 50 menit per hari</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">Akses belajar senin- jum'at, pukul 10.00 - 19.00 WIB</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">Sudah termasuk akses belajar Premium membership selama 1 bulan</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">FREE Startet kit (Sim Card Indosat, buku panduan, block notes, pulpen & sticker Bahaso)</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">FREE handphone maxtron P12 star (untuk langsung menelpon tutor)</span>
+									</li>
+								</ul>
+								<button class="btn btn-primary buyNow">BELI SEKARANG</button>
+								<p class="buyTokped">BELI DI TOKOPEDIA</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="profile" >
+								<img src="images/fluent.png" style="left: calc(85% - 50%);position: absolute;top: -100px;">
+								<p class="priceDiscFluent">RP. 4.750.000</p>
+								<p class="price">RP. 8.000.000</p>
+								<ul style="line-height: 20px;">
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">Durasi total 3000 menit(+bonus 1000 menit) Total = 4000 menit</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">Masa berlaku 180 hari terhitung sejak pembiayaan</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">Panggilan dapat dilakukan maksimal 50 menit per hari</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">Akses belajar senin- jum'at, pukul 10.00 - 19.00 WIB</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">Sudah termasuk akses belajar Premium membership selama 6 bulan</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">FREE Startet kit (Sim Card Indosat, buku panduan, block notes, pulpen & sticker Bahaso)</span>
+									</li>
+									<li style="color:#6ad6d4;">
+										<span style="color:#333;">FREE handphone NUU mobile M2 M4X Lite RAM 3/32GB (untuk langsung menelpon tutor)</span>
+									</li>
+								</ul>
+								<button class="btn btn-danger buyNow">BELI SEKARANG</button>
+								<p class="buyTokped">BELI DI TOKOPEDIA</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section>
+				<div class="container">
+					<div class="row" align="center">
+						<div class="col-md-12">
+							<p align="center" style="font-family: 'Nunito', sans-serif;color:#333;font-weight:600;font-size:20px;position: relative;padding-top:0%; ">Hanya tersedia di</p>
+						</div>
+						<div class="col-md-12">
+							<img src="images/google_play.png" alt="blank" style="padding: 15px 0px 15px 0px;" />
+						</div>
+					</div>
+					
+				</div>
+			</section>
+
+			<section class="testimonials">
+				<div class="container">
+					<h3>KATA MEREKA TENTANG BAHASO TALK</h3>
+					<div class="row">
+						<div class="col-md-4 text-center">
+							<div class="profile">
+								<img src="images/testimonial.png" class="user">
+								<q>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. </q>
+								<h5 style="text-align: left;">Poppy DV</h5>
+							</div>
+						</div>
+						<div class="col-md-4 text-center">
+							<div class="profile">
+								<img src="images/testimonial.png" class="user">
+								<q>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. </q>
+								<h5 style="text-align: left;">Ridwan Fakhry</h5>
+							</div>
+						</div>
+						<div class="col-md-4 text-center">
+							<div class="profile">
+								<img src="images/testimonial.png" class="user">
+								<q>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. </q>
+								<h5 style="text-align: left;">Rahasih Puspita</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="bg-footer" style="background-image: url(images/bg.png);">
+				<div class="container">
+					<div class="row">
+					
+						<div class="col-lg-10 col-md-10 foots">
+							<ul style="margin-left: -60px;">
+								<li>
+									<a href="">Tentang</a>
+								</li>
+								<li>
+									<a href="">Syarat dan ketentuan</a>
+								</li>
+								<li>
+									<a href="">Privacy</a>
+								</li>
+								<li>
+									<a href="">Karir</a>
+								</li>
+								<li>
+									<a href="">Blog</a>
+								</li>
+								<li>
+									<a href="">Kontak</a>
+								</li>
+								<li>
+									<a href="">Kritik dan Saran</a>
+								</li>
+								<li>
+									<a href="">FAQ</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-lg-2 col-md-2 foots">
+							<ul style="margin-left: -60px;">
+								<li>
+									<i class="fa fa-twitter" style="font-size:24px"></i>
+								</li>
+								<li>
+									<i class="fa fa-facebook" style="font-size:24px"></i>
+								</li>
+								<li>
+									<i class="fa fa-instagram" style="font-size:24px"></i>
+								</li>
+								<li>
+									<i class="fa fa-youtube" style="font-size:24px"></i>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+	</body>
+
+	<script>
+
+			var deadline = new Date("Jan 5, 2022 24:00:00").getTime(); 
+  
+			var x = setInterval(function() { 
+			  
+			var now = new Date().getTime(); 
+			var t = deadline - now; 
+			var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+			var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+			var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+			document.getElementById("hour").innerHTML =hours; 
+			document.getElementById("minute").innerHTML = minutes;  
+			document.getElementById("second").innerHTML =seconds;  
+			if (t < 0) { 
+			        clearInterval(x); 
+			        document.getElementById("demo").innerHTML = "TIME UP"; 
+			        document.getElementById("hour").innerHTML ='0'; 
+			        document.getElementById("minute").innerHTML ='0' ;  
+			        document.getElementById("second").innerHTML = '0'; } 
+			}, 1000);
+
+	</script>
+
+</html>
